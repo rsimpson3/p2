@@ -4,8 +4,6 @@
 
 $_GET;
 
-print_r(array_values($_GET));
-
 # formfield empty default to 4 words
 $word_count = $_GET['number_of_words'];
 // echo "this is input no of words :" . $word_count;
