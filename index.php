@@ -36,13 +36,16 @@ ini_set('display_errors', 1);
                         } ?>
                     </tr>
                 </table>
-
             </div>
-            <!-- show/hide class if valid entry needed -->
-            <p class="pwdfeedback">
-                My password has <?php echo $word_count ?> words.
-
-            </p>
+            <!-- display biology password and definition -->
+            <div class="define">
+                <?php
+                if (array_key_exists('define', $_GET)) {
+                    foreach ($rand_keys AS $keys => $value) { ?>
+                        <p> <?php echo $bio_passwords[$value] ?> : <?php echo $bio_definitions[$value]; ?> </p> <?php
+                    }
+                } ?>
+            </div>
 
             <form action="index.php" method="GET">
                 <label for='number_of_words'># of Words</label>
@@ -50,9 +53,12 @@ ini_set('display_errors', 1);
     				<br>
                 Add a number <input type="checkbox" name='number'> <br>
                 Add a symbol <input type="checkbox" name='symbol'> <br>
+                Show biology word definitions <input type="checkbox" name='define'> <br>
                 <input type='submit' value='Synthesize My Password'>
             </form
         </div>
-
+        <footer>
+            <p> Based on a <a href="http://xkcd.com/936/"> xkcd cartoon.</a> </p>
+        </footer>
     </body>
 </html>

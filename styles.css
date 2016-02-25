@@ -11,7 +11,7 @@ H1 {
 
 /* center password table*/
 table.center {
-   margin-left:auto; 
+   margin-left:auto;
    margin-right:auto;
  }
 
@@ -28,9 +28,19 @@ table.center {
 	float: none;
 	background-color: lightgray;
     text-align: center;
+    border: solid 1pt;
+    padding-bottom: 20px;
 }
 
 .pwdbox {
     font-size: 2em;
     font-weight: bold;
+}
+
+.define {
+    padding: 20px;
+}
+
+.define p {
+    text-align: left;
 }

@@ -7,14 +7,14 @@ Live URL: <http://p2.digitalbiolab.me>
 Password generator based on biology words.
 
 ## Updates
-First version.
+Add biology word definition array and display feature.
 
 ## Demo
 Insert demo video link here.
 Created with Adobe Presenter Express software.
 
 ## Details for Teaching Team
-First commit.
+Encountering an error when selecting only show definition checkbox. 
 
 ## Outside Code
 Biology Vocabulary Word Source
