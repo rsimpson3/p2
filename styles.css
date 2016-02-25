@@ -1,0 +1,36 @@
+body {
+	font-family: Arial, Geneva, sans-serif;
+	background-color: #B1D3EE;
+	font-size: 100%;
+}
+
+H1 {
+    font-size: 2em;
+    color: darkgreen;
+}
+
+/* center password table*/
+table.center {
+   margin-left:auto; 
+   margin-right:auto;
+ }
+
+#passwords tr {
+    font-size: 0.8em;
+    font-weight: normal;
+
+}
+
+.wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	background-color: lightgray;
+    text-align: center;
+}
+
+.pwdbox {
+    font-size: 2em;
+    font-weight: bold;
+}
