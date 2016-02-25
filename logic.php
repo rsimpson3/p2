@@ -3,15 +3,12 @@
 #server side validation of word count needed
 
 $_GET;
-echo '<pre>';
-var_dump($_GET);
-echo '</pre>';
 
 print_r(array_values($_GET));
 
 # formfield empty default to 4 words
 $word_count = $_GET['number_of_words'];
-echo "this is input no of words :" . $word_count;
+// echo "this is input no of words :" . $word_count;
 
 // Biology Passwords Array
 $bio_passwords = Array (
