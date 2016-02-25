@@ -26,7 +26,7 @@
                         }
                     }
                     elseif ((empty($word_count )) || !(is_numeric($word_count))) {
-                        echo "Missing number"; ?> <br> <?php
+                        echo "Missing number"; ?> </br> <?php
                         $message = 'Please enter a number: 2-6. ';
                         echo $message;
                     } ?>
