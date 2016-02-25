@@ -13,6 +13,7 @@
             <table id="passwords" class="center">
                 <tr>
                     <?php
+                    $message = 'Please enter a number: 2-6. ';
                     if ($word_count >= 2 AND $word_count < 7 AND is_numeric($word_count)) {
                         $rand_keys = array_rand($bio_passwords, $word_count);
                         foreach ($rand_keys AS $keys => $value) { ?>
@@ -27,9 +28,10 @@
                     }
                     elseif ((empty($word_count )) || !(is_numeric($word_count))) {
                         echo "Missing number"; ?> </br> <?php
-                        $message = 'Please enter a number: 2-6. ';
                         echo $message;
-                    } ?>
+                    }
+                    else echo $message;
+                    ?>
                 </tr>
             </table>
         </div>
