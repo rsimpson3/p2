@@ -4,17 +4,17 @@
 Live URL: <http://p2.digitalbiolab.me>
 
 ## Description
-Password generator based on biology words.
+Password generator based on biology words. Generate a secure password and practice your understanding of biology vocabulary.
 
 ## Updates
 Add biology word definition array and display feature.
 
 ## Demo
-Insert demo video link here.
+https://vimeo.com/simpson3/2demo
 Created with Adobe Presenter Express software.
 
 ## Details for Teaching Team
-Encountering an error when selecting only show definition checkbox. 
+ The biology words are hardcoded in an array containing 20 words. 
 
 ## Outside Code
 Biology Vocabulary Word Source
